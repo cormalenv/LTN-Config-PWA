@@ -1,7 +1,8 @@
 // --- BLE Service and Characteristic UUIDs (MUST match web_interface.h) ---
-const SERVICE_UUID = "4FAFC201-1FB5-4740-984A-953835CE2260";
-const CONFIG_CHAR_UUID = "BEB5483E-36E1-4688-B7F5-EA07361B26A8";
-const COMMAND_CHAR_UUID = "BEB5483E-36E1-4688-B7F5-EA07361B26A9";
+// All 128-bit UUIDs MUST be lowercase for Web Bluetooth API compatibility.
+const SERVICE_UUID = "4fafc201-1fb5-4740-984a-953835ce2260";
+const CONFIG_CHAR_UUID = "beb5483e-36e1-4688-b7f5-ea07361b26a8";
+const COMMAND_CHAR_UUID = "beb5483e-36e1-4688-b7f5-ea07361b26a9";
 
 // Global BLE objects
 let gattServer;
